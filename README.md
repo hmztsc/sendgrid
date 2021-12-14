@@ -1,2 +1,2 @@
 # sendgrid
-Sending email via Sendgrid with Template Generator - Native PHP
+Sending email via Sendgrid - Native PHP
