@@ -23,7 +23,7 @@ $email = "your@email.com";
 $name = "Company Name";
 $subject = "Subject";
 
-$html_file = './email-template.html';
+$html_file = './email-template.min.html';
 $html_template = file_get_contents(__DIR__ . $html_file);
 $html_template = str_replace('%title%',$subject,$html_template);
 $html_template = str_replace('%descriptions%',$subject,$html_template);
